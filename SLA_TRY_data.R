@@ -4,8 +4,7 @@
 ##        To pick out one variable
 ##        Plot/table data
 ##        create a csv of the trait-specific dataframe. 
-
-
+#
 ##############################################################################################################
 ##set up space
 
@@ -83,7 +82,7 @@ simplified[,2] <- as.numeric(as.character(simplified[,2]))
 simplified[,5]<- round(simplified[,3]/simplified[,2], digits =2)
 
 ####format names
-coln1<-paste("µ", traitname, sep = " ")
+coln1<-paste("Âµ", traitname, sep = " ")
 coln2<-paste("s.d.", traitname, sep = " ")
 coln3<-paste("n", traitname, sep = " ")
 coln4<- paste ("norm_s.d.", traitname, sep = " ")
